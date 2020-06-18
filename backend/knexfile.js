@@ -13,7 +13,7 @@ module.exports = {
     useNullAsDefault: true,
   },
 
-  staging: { // ambiente para o time de desenvolvimento
+  staging: {
     client: 'postgresql',
     connection: {
       database: 'my_db',
@@ -29,7 +29,7 @@ module.exports = {
     }
   },
 
-  production: { //ambiente de produção, que é online para o cleinte
+  production: {
     client: 'postgresql',
     connection: {
       database: 'my_db',
